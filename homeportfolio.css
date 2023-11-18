@@ -1,0 +1,180 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100% ;
+    max-height: 100vh ;
+}
+/* Style the header and navigation bar */
+header {
+    z-index: 2;
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    *:hover{
+        color: gray;
+    
+    }
+    font-family:  "Exo 2", sans-serif;
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: "Exo 2", sans-serif;
+}
+a { 
+   text-decoration: none;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+p {
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+/*hero section*/
+#hero{
+    background-image: url(https://www.itl.cat/pngfile/big/284-2844454_windows-xp-bliss-night.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#hero:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+#hero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+    animation: text_reveal .5s ease forwards;
+    animation-delay:1ss;
+}
+#hero h1:nth-child(1){
+    animation-delay: 5s;
+}
+#hero h1:nth-child(2){
+    animation-delay: 1.5s;
+}
+#hero h1:nth-child(3){
+    animation-delay: 2.5s;
+}
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: yellow;
+    animation: text_reveal_box 1s ease;
+    animation-delay:1s;
+}
+#hero h1:nth-child(1) span{
+    animation-delay: 1s;
+}
+#hero h1:nth-child(2) span{
+    animation-delay: 2s;
+}
+#hero h1:nth-child(3) span{
+    animation: text_reveal_name .5s ease forwards;
+    animation-delay: 3s;
+}
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: yellow;
+    background-color: transparent;
+    border: 2px solid yellow;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 36px;
+    transition: .3s ease ;
+    transition-property: background-color,color;
+}
+.cta:hover {
+    color: rgb(2, 12, 20);
+    background-color: yellow;
+}
+
+
+
+/*End hero section*/
+/* About section  */
+
+/* About section  *

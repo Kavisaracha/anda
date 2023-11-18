@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    max-width: 100% ;
+    max-height: 100vh ;
+    background-color: black
+}
+
+/* Style the header and navigation bar */
+header {
+    z-index: 2;
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    *:hover{
+        color: gray;
+    
+    }
+    font-family:  "Exo 2", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.no {
+    padding: 30px;
+}
+.block1 h2 {
+    color: white ;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 45px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.eng{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;}
+.A {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 65px;
+    background-color: black
+}
+
+h3{
+    color: white; 
+    margin: 5px;
+    font-family:  "Exo 2", sans-serif;
+}
+h1{
+    color: yellow;
+    margin: 5px;
+    font-family:  "Exo 2", sans-serif;
+}
+
+h4{
+    color: white; 
+    margin: 5px;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+   
+@media only screen and (max-width: 768px) {
+    .eng {
+        flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        height: 50vh;
+
+      }
+    .A {
+        height: 50vh;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+
+    
+
+
+
+  
+    
+

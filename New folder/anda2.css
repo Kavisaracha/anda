@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;
+}
+.ABC {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    gap: 10px;
+    
+    
+
+}
+.AB {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    
+
+
+}
+.C {
+    background-color: blueviolet;
+   
+}
+
+.D {
+    background-color: chartreuse;
+    
+    
+    
+}
+.B {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    
+
+}
+.b1 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 10px;    
+    background-color: white
+
+}
+.b2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    background-color: white
+    
+
+}
+.A {
+    background-color: brown;
+}
+.B1 {
+    background-color: blue;
+
+
+}
+.B2 {
+    background-color: blue;
+}
+.B3 {
+    background-color: blue;
+}
+.B4 {
+    background-color: blue;
+}
